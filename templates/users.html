@@ -1,0 +1,28 @@
+{% extends 'header.html' %}
+
+{% block content %}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Username</th>
+            <th>roll</th>
+            <th>email</th>
+            <th>mobile</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+           <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ user[1] }}</td>
+            <td>{{ user[2] }}</td>
+            <td>{{ user[3] }}</td>
+            <td>{{ user[4] }}</td>
+           </tr>
+           {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

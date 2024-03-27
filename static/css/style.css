@@ -1,0 +1,94 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.image{
+    height: 62x;
+    width: 70px;
+    border-radius:80px;
+}
+.head{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin:10px 10px;
+}
+
+.color{
+    background:blue;
+}
+
+.para{
+    border-radius: 15px;
+    margin: 15px 5px;
+    padding:10px 10px;
+    margin-left: 430px;
+    font-size: 10px;
+    margin-top: 19px;
+}
+
+.line{
+    background: rgb(231, 110, 130);
+    margin-top: 15px;
+    text-shadow: 5px 5px 5px #000;
+}
+.line marquee p{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.mouni{
+    border-radius: 8px;
+    margin:15px 16px ;
+}
+.lex{
+    background: rgb(255, 81, 0);
+    margin: 10px;
+}
+.hi{
+    list-style-type:none;
+}
+.hi li{
+    float:left;
+    padding:10px;
+    border-right: 1px solid #fff;
+    color:#fff;
+}
+.pr{
+    color: rgb(55, 55, 233);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rex{
+    text-align: center;
+    font-style: normal;
+    color:rgb(14, 1, 1);
+    font-size:42px;
+}
+.mex{
+    text-align: center;
+    color: green;
+}
+
+.nrcm{
+    font-size: 40px;
+    font-style: normal;
+}
+.mn{
+    background: rgb(255, 81, 0);
+    border: 20%;
+    padding: 10px;
+    color: #fff;
+    border-width:0px;
+    border-radius: 10px;
+}
